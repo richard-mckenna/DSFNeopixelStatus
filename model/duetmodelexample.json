@@ -1,0 +1,893 @@
+{
+    "channels": {
+        "http": {
+            "compatibility": 1,
+            "feedrate": 50.000004,
+            "relativeExtrusion": true,
+            "volumetricExtrusion": false,
+            "relativePositioning": false,
+            "usingInches": false,
+            "stackDepth": 1,
+            "lineNumber": 0
+        },
+        "telnet": {
+            "compatibility": 2,
+            "feedrate": 50.000004,
+            "relativeExtrusion": true,
+            "volumetricExtrusion": false,
+            "relativePositioning": false,
+            "usingInches": false,
+            "stackDepth": 1,
+            "lineNumber": 0
+        },
+        "file": {
+            "compatibility": 1,
+            "feedrate": 50.000004,
+            "relativeExtrusion": true,
+            "volumetricExtrusion": false,
+            "relativePositioning": false,
+            "usingInches": false,
+            "stackDepth": 1,
+            "lineNumber": 0
+        },
+        "usb": {
+            "compatibility": 2,
+            "feedrate": 50.000004,
+            "relativeExtrusion": true,
+            "volumetricExtrusion": false,
+            "relativePositioning": false,
+            "usingInches": false,
+            "stackDepth": 1,
+            "lineNumber": 0
+        },
+        "aux": {
+            "compatibility": 1,
+            "feedrate": 50.000004,
+            "relativeExtrusion": true,
+            "volumetricExtrusion": false,
+            "relativePositioning": false,
+            "usingInches": false,
+            "stackDepth": 1,
+            "lineNumber": 0
+        },
+        "daemon": {
+            "compatibility": 1,
+            "feedrate": 50.000004,
+            "relativeExtrusion": false,
+            "volumetricExtrusion": false,
+            "relativePositioning": false,
+            "usingInches": false,
+            "stackDepth": 1,
+            "lineNumber": 0
+        },
+        "codeQueue": {
+            "compatibility": 1,
+            "feedrate": 50.000004,
+            "relativeExtrusion": true,
+            "volumetricExtrusion": false,
+            "relativePositioning": false,
+            "usingInches": false,
+            "stackDepth": 1,
+            "lineNumber": 0
+        },
+        "lcd": {
+            "compatibility": 1,
+            "feedrate": 50.000004,
+            "relativeExtrusion": true,
+            "volumetricExtrusion": false,
+            "relativePositioning": false,
+            "usingInches": false,
+            "stackDepth": 1,
+            "lineNumber": 0
+        },
+        "spi": {
+            "compatibility": 1,
+            "feedrate": 50.000004,
+            "relativeExtrusion": true,
+            "volumetricExtrusion": false,
+            "relativePositioning": false,
+            "usingInches": false,
+            "stackDepth": 1,
+            "lineNumber": 0
+        },
+        "autoPause": {
+            "compatibility": 1,
+            "feedrate": 50.000004,
+            "relativeExtrusion": true,
+            "volumetricExtrusion": false,
+            "relativePositioning": false,
+            "usingInches": false,
+            "stackDepth": 1,
+            "lineNumber": 0
+        }
+    },
+    "directories": {
+        "filaments": "0:/filaments",
+        "gCodes": "0:/gcodes",
+        "macros": "0:/macros",
+        "system": "0:/sys",
+        "www": "0:/www"
+    },
+    "electronics": {
+        "name": "Duet 3 MB6HC",
+        "shortName": "MB6HC",
+        "revision": "0.6",
+        "version": "1.2.3.0",
+        "type": "duet3",
+        "firmware": {
+            "name": "RepRapFirmware for Duet 3 MB6HC v0.6 or 1.0",
+            "version": "3.0",
+            "date": "2020-01-03b3"
+        },
+        "processorID": null,
+        "vIn": {
+            "current": 0.2,
+            "min": 0.1,
+            "max": 0.2
+        },
+        "mcuTemp": {
+            "current": 32.2,
+            "min": 30.4,
+            "max": 32.4
+        },
+        "expansionBoards": []
+    },
+    "fans": [
+        {
+            "value": 0,
+            "name": "",
+            "rpm": null,
+            "inverted": false,
+            "frequency": null,
+            "min": 0,
+            "max": 1,
+            "blip": 0.1,
+            "thermostatic": {
+                "control": false,
+                "heaters": [],
+                "temperature": null
+            },
+            "pin": null
+        },
+        {
+            "value": 1,
+            "name": "",
+            "rpm": null,
+            "inverted": false,
+            "frequency": null,
+            "min": 0,
+            "max": 1,
+            "blip": 0.1,
+            "thermostatic": {
+                "control": true,
+                "heaters": [],
+                "temperature": null
+            },
+            "pin": null
+        }
+    ],
+    "heat": {
+        "beds": [
+            {
+                "active": [
+                    0
+                ],
+                "standby": [
+                    0
+                ],
+                "name": null,
+                "heaters": [
+                    0
+                ]
+            }
+        ],
+        "chambers": [],
+        "coldExtrudeTemperature": 160,
+        "coldRetractTemperature": 90,
+        "extra": [
+            {
+                "current": -273.1,
+                "name": "*Bed",
+                "state": null,
+                "sensor": null
+            },
+            {
+                "current": -273.1,
+                "name": "*Hotend",
+                "state": null,
+                "sensor": null
+            }
+        ],
+        "heaters": [
+            {
+                "current": -273.1,
+                "name": "Bed",
+                "state": 0,
+                "model": {
+                    "gain": null,
+                    "timeConstant": null,
+                    "deadTime": null,
+                    "maxPwm": null,
+                    "standardVoltage": null,
+                    "usePID": true,
+                    "customPID": false,
+                    "p": 0,
+                    "i": 0,
+                    "d": 0
+                },
+                "max": 290,
+                "sensor": 0
+            },
+            {
+                "current": -273.1,
+                "name": "Hotend",
+                "state": 3,
+                "model": {
+                    "gain": null,
+                    "timeConstant": null,
+                    "deadTime": null,
+                    "maxPwm": null,
+                    "standardVoltage": null,
+                    "usePID": true,
+                    "customPID": false,
+                    "p": 0,
+                    "i": 0,
+                    "d": 0
+                },
+                "max": 290,
+                "sensor": 1
+            }
+        ]
+    },
+    "httpEndpoints": [],
+    "job": {
+        "file": {
+            "fileName": null,
+            "size": 0,
+            "lastModified": null,
+            "height": 0,
+            "firstLayerHeight": 0,
+            "layerHeight": 0,
+            "numLayers": null,
+            "filament": [],
+            "generatedBy": "",
+            "printTime": 0,
+            "simulatedTime": 0
+        },
+        "filePosition": null,
+        "lastFileName": null,
+        "lastFileAborted": false,
+        "lastFileCancelled": false,
+        "lastFileSimulated": false,
+        "extrudedRaw": [],
+        "duration": null,
+        "layer": null,
+        "layerTime": null,
+        "layers": [],
+        "warmUpDuration": null,
+        "timesLeft": {
+            "file": null,
+            "filament": null,
+            "layer": null
+        }
+    },
+    "lasers": [],
+    "messageBox": {
+        "mode": null,
+        "title": "Welcome your new Duet 3!",
+        "message": "Please go to \u003Ca href=\u0022https://www.duet3d.com/StartHere\u0022 target=\u0022_blank\u0022\u003Ethis\u003C/a\u003E page for further instructions on how to set it up.",
+        "axisControls": [],
+        "seq": 1
+    },
+    "messages": [],
+    "move": {
+        "axes": [
+            {
+                "letter": "X",
+                "drives": [
+                    0
+                ],
+                "homed": false,
+                "machinePosition": 0,
+                "min": 0,
+                "minEndstop": 0,
+                "minProbed": false,
+                "max": 265,
+                "maxEndstop": 0,
+                "maxProbed": false,
+                "visible": true
+            },
+            {
+                "letter": "Y",
+                "drives": [
+                    1
+                ],
+                "homed": false,
+                "machinePosition": 0,
+                "min": 0,
+                "minEndstop": 1,
+                "minProbed": false,
+                "max": 255,
+                "maxEndstop": 1,
+                "maxProbed": false,
+                "visible": true
+            },
+            {
+                "letter": "Z",
+                "drives": [
+                    2
+                ],
+                "homed": false,
+                "machinePosition": 0,
+                "min": 0,
+                "minEndstop": 2,
+                "minProbed": false,
+                "max": 270,
+                "maxEndstop": 2,
+                "maxProbed": false,
+                "visible": true
+            }
+        ],
+        "babystepZ": 0,
+        "currentMove": {
+            "requestedSpeed": 0,
+            "topSpeed": 0
+        },
+        "compensation": "None",
+        "heightmapFile": null,
+        "drives": [
+            {
+                "position": 0,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 800,
+                "acceleration": 500,
+                "minSpeed": 15,
+                "maxSpeed": 100
+            },
+            {
+                "position": 0,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 800,
+                "acceleration": 500,
+                "minSpeed": 15,
+                "maxSpeed": 100
+            },
+            {
+                "position": 0,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 800,
+                "acceleration": 20,
+                "minSpeed": 0.2,
+                "maxSpeed": 3
+            },
+            {
+                "position": 0,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 500,
+                "minSpeed": 15,
+                "maxSpeed": 100
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 500,
+                "minSpeed": 15,
+                "maxSpeed": 100
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 500,
+                "minSpeed": 15,
+                "maxSpeed": 100
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 500,
+                "minSpeed": 15,
+                "maxSpeed": 100
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 500,
+                "minSpeed": 15,
+                "maxSpeed": 100
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 500,
+                "minSpeed": 15,
+                "maxSpeed": 100
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 500,
+                "minSpeed": 15,
+                "maxSpeed": 100
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 250,
+                "minSpeed": 2,
+                "maxSpeed": 20
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 250,
+                "minSpeed": 2,
+                "maxSpeed": 20
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 250,
+                "minSpeed": 2,
+                "maxSpeed": 20
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 250,
+                "minSpeed": 2,
+                "maxSpeed": 20
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 250,
+                "minSpeed": 2,
+                "maxSpeed": 20
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 250,
+                "minSpeed": 2,
+                "maxSpeed": 20
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 250,
+                "minSpeed": 2,
+                "maxSpeed": 20
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 250,
+                "minSpeed": 2,
+                "maxSpeed": 20
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 0,
+                "acceleration": 250,
+                "minSpeed": 2,
+                "maxSpeed": 20
+            },
+            {
+                "position": null,
+                "microstepping": {
+                    "value": 16,
+                    "interpolated": true
+                },
+                "current": 800,
+                "acceleration": 250,
+                "minSpeed": 2,
+                "maxSpeed": 20
+            }
+        ],
+        "extruders": [
+            {
+                "drives": [
+                    3
+                ],
+                "factor": 1,
+                "nonlinear": {
+                    "a": 0,
+                    "b": 0,
+                    "upperLimit": 0.2,
+                    "temperature": 0
+                }
+            }
+        ],
+        "geometry": {
+            "type": "unknown",
+            "anchors": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "printRadius": 0,
+            "diagonals": [
+                0,
+                0,
+                0
+            ],
+            "radius": 0,
+            "homedHeight": 0,
+            "angleCorrections": [
+                0,
+                0,
+                0
+            ],
+            "endstopAdjustments": [
+                0,
+                0,
+                0
+            ],
+            "tilt": [
+                0,
+                0
+            ]
+        },
+        "idle": {
+            "timeout": 30,
+            "factor": 0.3
+        },
+        "probeGrid": {
+            "xMin": 0,
+            "xMax": 0,
+            "xSpacing": 0,
+            "yMin": 0,
+            "yMax": 0,
+            "ySpacing": 0,
+            "radius": 0
+        },
+        "speedFactor": 1,
+        "currentWorkplace": 1,
+        "workplaceCoordinates": []
+    },
+    "network": {
+        "name": "Duet 3",
+        "hostname": "duet3",
+        "password": "reprap",
+        "interfaces": [
+            {
+                "type": "lan",
+                "firmwareVersion": null,
+                "speed": null,
+                "signal": null,
+                "macAddress": "B827EBA68771",
+                "configuredIP": "192.168.86.85",
+                "actualIP": "192.168.86.85",
+                "subnet": "255.255.255.0",
+                "gateway": "192.168.86.1",
+                "numReconnects": null,
+                "activeProtocols": []
+            }
+        ]
+    },
+    "scanner": {
+        "progress": 0,
+        "status": "D"
+    },
+    "sensors": {
+        "endstops": [
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            },
+            {
+                "action": 0,
+                "triggered": false,
+                "type": 0,
+                "probe": null
+            }
+        ],
+        "probes": [
+            {
+                "type": 9,
+                "value": 1000,
+                "secondaryValues": [],
+                "threshold": 500,
+                "speed": 2,
+                "diveHeight": 0,
+                "offsets": [
+                    0,
+                    0
+                ],
+                "triggerHeight": 2.5,
+                "filtered": true,
+                "inverted": false,
+                "recoveryTime": 0,
+                "travelSpeed": 100,
+                "maxProbeCount": 1,
+                "tolerance": 0.03,
+                "disablesBed": false,
+                "persistent": false
+            }
+        ]
+    },
+    "spindles": [],
+    "state": {
+        "atxPower": null,
+        "beep": {
+            "frequency": 0,
+            "duration": 0
+        },
+        "currentTool": 0,
+        "displayMessage": "",
+        "logFile": null,
+        "mode": "FFF",
+        "status": "off"
+    },
+    "storages": [
+        {
+            "mounted": true,
+            "speed": null,
+            "capacity": 15353540608,
+            "free": 11456081920,
+            "openFiles": null,
+            "path": "/"
+        },
+        {
+            "mounted": true,
+            "speed": null,
+            "capacity": 264289280,
+            "free": 209982976,
+            "openFiles": null,
+            "path": "/boot"
+        }
+    ],
+    "tools": [
+        {
+            "number": 0,
+            "active": [
+                0
+            ],
+            "standby": [
+                0
+            ],
+            "name": "Hemera",
+            "filamentExtruder": 0,
+            "filament": null,
+            "fans": [
+                0
+            ],
+            "heaters": [
+                1
+            ],
+            "extruders": [
+                0
+            ],
+            "mix": [],
+            "spindle": -1,
+            "axes": [],
+            "offsets": [
+                0,
+                0,
+                0
+            ],
+            "offsetsProbed": 0
+        }
+    ],
+    "userSessions": [
+        {
+            "id": 1,
+            "accessLevel": "readWrite",
+            "sessionType": "http",
+            "origin": "::ffff:127.0.0.1",
+            "originId": 38760
+        },
+        {
+            "id": 2,
+            "accessLevel": "readWrite",
+            "sessionType": "http",
+            "origin": "::ffff:192.168.86.84",
+            "originId": 59111
+        },
+        {
+            "id": 3,
+            "accessLevel": "readWrite",
+            "sessionType": "http",
+            "origin": "::ffff:192.168.86.28",
+            "originId": 9256
+        },
+        {
+            "id": 4,
+            "accessLevel": "readWrite",
+            "sessionType": "http",
+            "origin": "::ffff:192.168.86.28",
+            "originId": 9272
+        }
+    ],
+    "userVariables": []
+}

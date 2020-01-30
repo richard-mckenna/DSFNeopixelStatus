@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="DuetAPI" Version="1.2.2" />
+    <PackageReference Include="DuetAPIClient" Version="1.2.0" />
+    <PackageReference Include="kenssamson.rpi-ws281x-csharp" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>
